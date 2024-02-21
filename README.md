@@ -20,8 +20,10 @@ mvn clean install
 ``` 
 to build the application
 
-4. After the build is complete, run the application using the command java -jar target/github-repository-viewer.jar.
-
+4. After the build is complete, run the application using the command
+```bash
+java -jar target/githubScrapp-0.0.1-SNAPSHOT.jar
+```
 # Using the API
 After starting the application, you can access the API through Swagger. Simply open a web browser and go to the address http://localhost:8080/swagger-ui.html. There you will find API documentation and the ability to test the /repositories/{username} endpoint
 
